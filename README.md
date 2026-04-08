@@ -8,10 +8,10 @@
 ## 项目状态
 
 - [x] 仓库初始化
-- [ ] 学习文档体系（docs）
-- [ ] TS 核心抽象（Skill/Registry/Router/Executor/Hooks）
-- [ ] CLI MVP（list/run）
-- [ ] 示例技能与集成测试
+- [x] 学习文档体系（docs）
+- [x] TS 核心抽象（Skill/Registry/Router/Executor）
+- [x] CLI MVP（list/run）
+- [x] 示例技能与基础测试
 
 ## 目录
 
