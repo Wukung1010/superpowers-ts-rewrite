@@ -1,0 +1,32 @@
+{
+  "name": "superpowers-ts-rewrite",
+  "version": "1.0.0",
+  "description": "Learn obra/superpowers and rewrite core in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "dev": "tsx src/cli.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wukung1010/superpowers-ts-rewrite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Wukung1010/superpowers-ts-rewrite/issues"
+  },
+  "homepage": "https://github.com/Wukung1010/superpowers-ts-rewrite#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.3"
+  },
+  "bin": {
+    "superpowers-ts": "dist/cli.js"
+  }
+}
