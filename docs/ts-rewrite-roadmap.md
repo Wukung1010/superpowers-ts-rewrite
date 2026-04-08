@@ -22,9 +22,19 @@
 - 基础单元测试
 
 ### Phase 2
-- 自动触发策略（关键词 + 规则引擎）
-- Hooks（before/after/failed）
-- 错误模型与观测日志
+- 自动触发策略（关键词 + 规则引擎） ✅
+- Hooks（before/after/failed） ✅
+- 错误模型与观测日志 ✅
+- 插件入口（手动注册） ✅
+
+当前已支持：
+- `Skill` 元数据（version/tags）
+- Registry 校验（重名冲突、非法名称）与来源追踪（core/plugin）
+- Router 可插拔规则链
+- Executor 统一错误模型：`not-found` / `invalid-input` / `runtime-error`
+- PluginRuntime：一次性注册插件技能与可选 hooks
+- CLI `list` 展示版本/标签/来源；`run --auto` 支持策略自动选技
+- Policy / Executor 结构化事件记录（便于追踪执行链路）
 
 ### Phase 3
 - Skill 包加载器（本地目录扫描）
